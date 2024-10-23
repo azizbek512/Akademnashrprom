@@ -1,4 +1,73 @@
-.nav {
-    color: #000;
-    
+.site-nav {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
 }
+
+.sign-in {
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    }
+
+.booking {
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+        
+    }
+
+.section {
+    background-color: #151212;
+    color: #fff;
+
+    }
+    
+.footer {
+       
+    background-color: rgb(241, 241, 241);
+    color: black;
+    text-decoration: none;
+    }
+
+.booking-kids {
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+.kids-part {
+    background-color: #151212;
+    color: #fff;
+    width: 1100px;
+    border-radius: 20px;
+
+    }
+
+.strong {
+        color: orange;
+    }
