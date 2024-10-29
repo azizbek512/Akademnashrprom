@@ -1,5 +1,17 @@
+.logo-link:hover {
+    width: 222px;
+    height: 59.18px;
+    opacity: 0.8;
+
+}
+
+.logo-link:active {
+    opacity: 0.6;
+}
+
+
 .site-nav {
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
@@ -10,9 +22,17 @@
     list-style-type: none;
 }
 
-.site-nav a {
+.site-nav  {
     color: #000;
     text-decoration: none;  
+}
+
+.site-nav:hover {
+    color: #FF7500;
+}
+
+.site-nav:active {
+    opacity: 0.6;
 }
 
 
@@ -30,16 +50,24 @@
     list-style-type: none;
     }
 
+.sign-in:hover {
+    opacity: 0.8;
+}
+
+.sign-in:active {
+    opacity: 0.6;
+}
+
 .hero-line {
         background-color: orange;
         color:orange;
         height: 3px;
-        width: 70px;
+        width: 80px;
 
     }
 
 .booking {
-    background-color: orange;
+    background-color: #FF7500;
     border-radius: 10px;
     color: #fff;
     padding: 10px 20px;
@@ -48,10 +76,17 @@
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
-        
     }
 
-    body {
+.booking:hover {
+    opacity: 0.8;
+}
+
+.booking:active {
+    opacity: 0.6;
+}
+
+body {
         font-family: "Roboto", sans-serif;
     }
 
@@ -86,7 +121,15 @@ li {
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
-    }
+}
+
+.booking-kids:hover {
+    opacity: 0.8;
+}
+
+.booking-kids:active {
+    opacity: 0.6;
+}
 
 .kids-part {
     background-color: #252420;
@@ -116,6 +159,10 @@ li {
 
 }
 
+.footer-logo:hover {
+    opacity: 0.8;
+}
+
 .footer-line {
     height: 2px;
     width: 1200px;
@@ -126,17 +173,32 @@ li {
 
 .footer-icons {
     list-style-type: none;
+    color: #000;
 }
 
 .footer-icons a {
     text-decoration: none;
+    color: #000;
 }
+
+.footer-icons a:hover {
+    color: #FF7500;
+    
+}
+
+.footer-icons a:active {
+    color: #FF7500;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+
 
 .footer-links {
     text-decoration: none;
     color: #000;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 18.75px;
     list-style-type: none;
     width: 224;
 }
@@ -144,6 +206,15 @@ li {
 .footer-links a {
     color: #000;
     text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #FF7500;
+}
+
+.footer-links a:active {
+    opacity: 0.6;
+    color: #FF7500;
 }
 
 
