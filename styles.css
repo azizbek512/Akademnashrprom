@@ -1,3 +1,31 @@
+.top-line {
+    width: 1440px;
+    height: 5px;
+    background-color: #FF7500;
+    position: absolute;
+    top: 0px;
+}
+
+.body {
+    display: block;
+}
+
+.sitenav-elements {
+    width: 1440px;
+    height: 96.18px;
+    padding-left: 80px;
+
+}
+
+
+
+.logo-link {
+    padding-left: 80px;
+    justify-self:flex-start;
+    position: absolute;
+    top: 25px;
+}
+
 .logo-link:hover {
     width: 222px;
     height: 59.18px;
@@ -13,18 +41,18 @@
 .site-nav {
     background-color: hsl(0, 0%, 100%);
     font-weight: 500;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 15px;
     letter-spacing: 1px;
     text-decoration:none;
     color: #000;
     text-transform: uppercase;
     list-style-type: none;
-}
-
-.site-nav  {
-    color: #000;
-    text-decoration: none;  
+    width: 1440px;
+    height: 96.18px;
+    gap: 30px;
+    margin-right: 20px;
+    font-weight: bolder;
 }
 
 .site-nav:hover {
@@ -35,19 +63,31 @@
     opacity: 0.6;
 }
 
+.sitenav-items {
+    position: absolute;
+    top: 45px;
+    right: 250px;
+    
+}
+
 
 
 .sign-in {
     background-color: #FF7500;
     border-radius: 4px;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: bolder;
+    border-width: 155px;
     cursor: pointer;
-    text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    
     }
 
 .sign-in:hover {
@@ -59,16 +99,20 @@
 }
 
 .hero-line {
-        background-color: orange;
-        color:orange;
-        height: 3px;
-        width: 80px;
+    background-color: orange;
+    color:orange;
+    height: 3px;
+    width: 80px;
+    justify-self: left;
+    position: absolute;
+    left: 170px;
+    top: 177px;
 
-    }
+}
 
 .booking {
     background-color: #FF7500;
-    border-radius: 10px;
+    border-radius: 4px;
     color: #fff;
     padding: 10px 20px;
     text-align: center;
@@ -76,6 +120,9 @@
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
+    position: absolute;
+    left: 170px;
+    bottom: 10px;
     }
 
 .booking:hover {
@@ -87,16 +134,59 @@
 }
 
 body {
-        font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     }
 
 .section {
     background-color: #252420;
     color: #fff;
+    width: 1440px;
+    height: 488px;
+    padding-top: 97px;
     }
+
+.hero-text {
+    padding-top: 50px;
+    width: 387px;
+    position: absolute;
+    left: 170px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-image {
+    padding-left: 760px;
+    padding-top: 137px;
+    width: 510px;
+    height: 510px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
 
 li {
     list-style-type: none;
+}
+
+.promo-line {
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+    position: absolute;
+    top: 794px;
+    left: 170px;
+}
+
+.heading-promo {
+    font-size: 72px;
+    font-weight: 700px;
+    width: 435px;
+    height: 172px;
+    position: absolute;
+    top: 821px;
+    left: 170px;
 }
 
 .promo {
@@ -107,20 +197,42 @@ li {
     size: 16px;
     width: 314px;
     height: 113px;
+    margin-right: 50px;
+}
+
+.promo-item1 {
+    position: absolute;
+    left: 130px;
+    top: 1165px;
+}
+
+.promo-item2 {
+    position:absolute;
+    top: 1165px;
+    left: 485px;
+}
+
+.promo-item3 {
+    position: absolute;
+    top: 1165px;
+    right: 60px;
 }
     
 
 
 .booking-kids {
-    background-color: orange;
-    border-radius: 10px;
+    background-color: #FF7500;
+    border-radius: 4px;
     color: #fff;
     padding: 10px 20px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    text-transform: uppercase;
     text-decoration: none;
+    font-weight: bolder;
+    position: absolute;
+    left: 0px;
+    top: 260px;
 }
 
 .booking-kids:hover {
@@ -136,13 +248,26 @@ li {
     color: #fff;
     border-radius: 20px;
     width: 1100px;
-    height: 600px;
-    top: 1555px;
+    height: 450px;
+    position: absolute;
+    top: 1600px;
     left: 170px;
-    gap: 0px;
-    opacity: 0px;
+}
 
-    }
+.kids-body {
+    width: 440px;
+    height: 291px; 
+    position: absolute;
+    top: 70px;
+    left: 70px;
+     
+}
+
+.kids-image {
+    position: absolute;
+    bottom: 70px;
+    left: 570px;
+}
 
 .strong {
         color: orange;
@@ -152,11 +277,17 @@ li {
 .footer {
     width: 1440px;
     height: 507px;
-    top: 2219px;
     gap: 0px;
     opacity: 0px;
     background-color: #e7e7e7 ;
+    position: absolute;
+    top: 2219px;
+}
 
+.footer-logo {
+    position: absolute;
+    left: 170px;
+    top: 20px;
 }
 
 .footer-logo:hover {
@@ -165,15 +296,21 @@ li {
 
 .footer-line {
     height: 2px;
-    width: 1200px;
+    width: 1100px;
     color: #000;
     background-color: #302f2f;
+    position: absolute;
+    top: 100px;
+    left: 170px;
 }
 
 
 .footer-icons {
     list-style-type: none;
     color: #000;
+    position: absolute;
+    top: 30px;
+    right: 170px;
 }
 
 .footer-icons a {
@@ -194,25 +331,114 @@ li {
 
 
 
-.footer-links {
+.footer-links1 {
     text-decoration: none;
     color: #000;
     font-size: 16px;
     line-height: 18.75px;
     list-style-type: none;
     width: 224;
+    position: absolute;
+    top: 180px;
+    left: 170px;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 
-.footer-links a {
+.footer-links1 a {
     color: #000;
     text-decoration: none;
 }
 
-.footer-links a:hover {
+.footer-links1 a:hover {
     color: #FF7500;
 }
 
-.footer-links a:active {
+.footer-links1 a:active {
+    opacity: 0.6;
+    color: #FF7500;
+}
+
+.footer-links2 {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 18.75px;
+    list-style-type: none;
+    width: 224;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.footer-links2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-links2 a:hover {
+    color: #FF7500;
+}
+
+.footer-links2 a:active {
+    opacity: 0.6;
+    color: #FF7500;
+}
+
+.footer-links3 {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 18.75px;
+    list-style-type: none;
+    width: 224;
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.footer-links3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-links3 a:hover {
+    color: #FF7500;
+}
+
+.footer-links3 a:active {
+    opacity: 0.6;
+    color: #FF7500;
+}
+
+.footer-links4 {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 18.75px;
+    list-style-type: none;
+    width: 224;
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.footer-links4 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-links4 a:hover {
+    color: #FF7500;
+}
+
+.footer-links4 a:active {
     opacity: 0.6;
     color: #FF7500;
 }
